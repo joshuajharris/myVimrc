@@ -3,7 +3,10 @@ colorscheme molokai " set colorscheme
 
 syntax enable       " enable syntax highlighting
 
-set tabstop=2       " set visual tab to 4 spaces
+set tabstop=2       " set visual tab to 2 spaces
+set shiftwidth=2    " indenting is 2 spaces when using <<, >>
+set autoindent
+set smartindent
 set softtabstop=2   " set tab to 4 spaces when editing
 set expandtab       " turns tab into spaces
 
