@@ -27,6 +27,9 @@ set hlsearch        " highlight matches
 nnoremap j gj
 nnoremap k gk
 
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
 " jk is escape
 inoremap jk <esc>
 
